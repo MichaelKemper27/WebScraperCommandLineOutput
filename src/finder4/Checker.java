@@ -53,7 +53,7 @@ public class Checker {
         if (newStuff)
         {
             f.FileIO(s, "savedDealID.txt");
-            mail.sendEmail("Found Sale Item", finalSendString);
+            //mail.sendEmail("Found Sale Item", finalSendString);
         }
         else
         {
